@@ -66,9 +66,9 @@ function RubricAlert(props) {
 
   return (
     <div>
-      <a onClick={clickHandle}>
+      <button onClick={clickHandle}>
         {rubricData[propsId]}
-      </a>
+      </button>
     </div>
   );
 }
