@@ -70,32 +70,31 @@ function Rubric() {
             id={15}
             msg={"How to say, we think our Readme is good enough!"}
           />
-          <RubricAlert id={16} msg={"Yes, we have build!"} />
           <RubricAlert
-            id={17}
+            id={16}
             msg={
               "We are not sure yet! We deploye backend and frontend sperately"
             }
           />
-          <RubricAlert id={18} msg={"Sure, it's basic one!"} />
-          <RubricAlert id={19} msg={"Sure, MIT license included"} />
+          <RubricAlert id={17} msg={"Sure, it's basic one!"} />
+          <RubricAlert id={18} msg={"Sure, MIT license included"} />
           <RubricAlert
-            id={20}
+            id={19}
             msg={
               "We have checked, no leftover, lefts are all important comments!"
             }
           />
-          <RubricAlert id={21} msg={"Not google yet, but will be all right!"} />
-          <RubricAlert id={22} msg={"Not record yet, but will be all right!"} />
-          <RubricAlert id={23} msg={"Yes, frozen on time!"} />
+          <RubricAlert id={20} msg={"Not google yet, but will be all right!"} />
+          <RubricAlert id={21} msg={"Not record yet, but will be all right!"} />
+          <RubricAlert id={22} msg={"Yes, frozen on time!"} />
           <RubricAlert
-            id={24}
+            id={23}
             msg={"We Defines PropTypes for where we use props"}
           />
-          <RubricAlert id={25} msg={"NO NO NO NO NO!"} />
+          <RubricAlert id={24} msg={"NO NO NO NO NO!"} />
+          <RubricAlert id={25} msg={"YES!"} />
           <RubricAlert id={26} msg={"YES!"} />
-          <RubricAlert id={27} msg={"YES!"} />
-          <RubricAlert id={28} msg={"We love bonus!"} />
+          <RubricAlert id={27} msg={"We love bonus!"} />
         </div>
       </div>
     </div>
