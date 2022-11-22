@@ -66,7 +66,7 @@ function RubricAlert(props) {
 
   return (
     <div>
-      <a href="" onClick={clickHandle}>
+      <a href="/Rubric" onClick={clickHandle}>
         {rubricData[propsId]}
       </a>
     </div>
