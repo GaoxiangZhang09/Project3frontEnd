@@ -66,7 +66,7 @@ function RubricAlert(props) {
 
   return (
     <div>
-      <a href="/Rubric" onClick={clickHandle}>
+      <a href="https://main--legendary-boba-b37c10.netlify.app/Rubric" onClick={clickHandle}>
         {rubricData[propsId]}
       </a>
     </div>
