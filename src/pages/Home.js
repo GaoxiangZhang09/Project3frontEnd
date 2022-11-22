@@ -29,7 +29,7 @@ function Home() {
       data.append("name", input_name);
       data.append("number", input_number);
       data.append("date", input_date);
-      await fetch("http://localhost:3001/addMint", {
+      await fetch("https://suibian-swr3.onrender.com/addMint", {
         method: "post",
         body: data
       }).catch((err) => {
@@ -60,7 +60,7 @@ function Home() {
       data.append("date", input_date);
 
       //   await fetch("https://five610-project3-server.onrender.com/addMint", {
-      await fetch("http://localhost:3001/addMint", {
+      await fetch("https://suibian-swr3.onrender.com/addMint", {
         method: "post",
         body: data
       })
@@ -82,7 +82,7 @@ function Home() {
   // update all mint historys
   async function fetchGET_findAllMints() {
     // await fetch("https://five610-project3-server.onrender.com/findAllFriends")
-    await fetch("http://localhost:3001/findAllMints")
+    await fetch("https://suibian-swr3.onrender.com/findAllMints")
       .then((res) => res.json())
       .then((txt) => {
         setMintHistorys(txt);
@@ -110,8 +110,10 @@ function Home() {
       data.append("_id", target_id);
       data.append("new_name", newName);
 
-      // await fetch("https://five610-project3-server.onrender.com/updateCommentById", {
-      await fetch("http://localhost:3001/updateMintNameById", {
+      //below is the onlinehost for here
+      await fetch("https://suibian-swr3.onrender.com/updateMintNameById", {
+      //below are the localhost
+      // await fetch("http://localhost:3001/updateMintNameById", {
         method: "post",
         body: data
       })
@@ -140,7 +142,7 @@ function Home() {
       data.append("_id", target_id);
 
       // fetch("https://five610-project3-server.onrender.com/deleteById", {
-      fetch("http://localhost:3001/deleteMintById", {
+      fetch("https://suibian-swr3.onrender.com/deleteMintById", {
         method: "post",
         body: data
       })
